@@ -1,0 +1,67 @@
+.active {
+  background-color: black;
+  color: white;
+}
+body {
+  background-color: rgb(24, 24, 218);
+}
+.body {
+  overflow: hidden;
+  background-color: orange;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  display: inline-block;
+}
+a {
+  border-style: solid;
+  border-color: black;
+}
+#main {
+  display: inline-block;
+  border-style: solid;
+  border-color: black;
+}
+section {
+  display: block;
+  box-sizing: border-box;
+  width: 750px;
+  border-style: solid;
+  border-color: black;
+}
+.section {
+  vertical-align: top;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 245px;
+  height: 400px;
+  border-style: solid;
+  border-color: black;
+}
+.w-100 {
+  width: 100%;
+}
+.w-100 #main,
+.w-100 .aside {
+  display: inline-block;
+}
+.aside {
+  vertical-align: top;
+  border-style: solid;
+  border-color: green;
+}
+header {
+  display: block;
+  vertical-align: top;
+  background-color: red;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer {
+  vertical-align: top;
+  background-color: black;
+  color: white;
+}
