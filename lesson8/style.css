@@ -116,6 +116,23 @@ ul {
 }
 
 /*    */
+body {
+  background-color: #333;
+}
+section h3,
+a {
+  color: #1ab394;
+}
+section h1,
+h2,
+p {
+  color: yellow;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* nav*/
 .nav-menu a {
   padding: 5px;
   text-decoration: none;
@@ -125,7 +142,9 @@ ul {
 .nav-menu a:hover {
   color: #e32879;
 }
-
+.nav-menu a {
+  color: #1ab394;
+}
 .nav-user img {
   width: 100%;
   height: 30px;
@@ -144,11 +163,15 @@ ul {
 .nav-search input:hover {
   color: #e32879;
 }
+.nav-search input {
+  color: #1ab394;
+}
 nav {
   width: 100%;
   position: sticky;
   top: 0px;
   z-index: 1;
+  background-color: #333;
 }
 .box-back {
   width: 30px;
@@ -157,19 +180,20 @@ nav {
   bottom: 20px;
   right: 20px;
 }
+
 /*TOP-ANIME */
-section{
-    padding-top: 10px;
+section {
+  padding-top: 10px;
 }
 .anime-main {
   position: relative;
   height: 100%;
 }
-.anime-aside{
-    position: relative;
+.anime-aside {
+  position: relative;
 }
-.img-main{
-    height: 100%;
+.img-main {
+  height: 100%;
 }
 
 .icon-action-main {
@@ -196,12 +220,12 @@ section{
   padding: 5px;
 }
 /* NEW CHAPTER*/
-.new-chapter{
-    padding-top: 20px;
+.new-chapter {
+  padding-top: 20px;
 }
-.anime-new{
-    position: relative;
-    padding: 5px;
+.anime-new {
+  position: relative;
+  padding: 5px;
 }
 .icon-action-new-anime {
   width: 70px;
@@ -222,7 +246,50 @@ section{
   left: 10px;
   font-size: 10px;
 }
-body {
-  height: 1000px;
-  background-color: #ddc01ec4;
+
+/* news*/
+.news {
+  padding-top: 20px;
+}
+.news .img-news,
+.title-news {
+  padding: 5px;
+}
+.title-news h3 {
+  font-size: 16px;
+}
+.title-news h3:hover {
+  color: rgb(45, 93, 236);
+}
+
+/* manga*/
+.manga-item {
+  position: relative;
+  padding: 5px;
+}
+.name-manga p {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+
+  border: 1px solid;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.chap-manga p {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  padding: 0 5px;
+  border: 1px solid;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.manga{
+  padding-top: 20px;
+}
+
+footer{
+  padding-top: 50px;
+  height: 200px;
 }
