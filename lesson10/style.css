@@ -120,28 +120,48 @@ li,
 a {
   text-decoration: none;
 }
+li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .sec-menu {
   position: absolute;
   left: 0;
   right: 0;
   display: none;
+  padding-top: 40px;
 }
-.first-menu .first-menu-link:hover .sec-menu {
+.first-menu .first-menu-item:hover .sec-menu {
   display: block;
 }
-.first-menu-link .sec-menu-link:hover {
-  color: red;
+.first-menu .first-menu-item:hover .sec-menu-img {
+  display: block;
 }
-.first-menu-link {
-  position: relative;
-}
-
 .sec-menu-link,
 .first-menu-link {
   padding: 5px 10px 5px 10px;
   border-radius: 20px;
   border-style: solid;
 }
-.first-menu, .sec-menu {
+.first-menu,
+.sec-menu {
   width: 100%;
+}
+.sec-menu-link {
+  height: 40px;
+}
+
+.sec-menu-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: none;
+  padding-top: 65px;
+}
+img {
+  padding: 5px;
+}
+
+.sec-menu-item .sec-menu-link:hover {
+  color: red;
 }
